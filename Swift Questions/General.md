@@ -67,3 +67,9 @@ ViewWillDisappar
 ViewDidDisapper
 ViewWillLayoutSubviews
 ViewDidLayoutSubview
+
+## What is inOut
+Parameters passed into a function in swift are constant - unless you mark them as inout in which case the modification made inside the function will also be reflected outside the function on that property. 
+
+## Convenience Initalizer 
+Convenience initalizers are initalizers that are put in place to make initalizing an object easier. It does not replace the designined initializer. For example if you have an app that is completely built programatically and you are always having to set the font, text size, color, etc. You could add a convenience init that allows you to abstract some of those redundent operations. 
